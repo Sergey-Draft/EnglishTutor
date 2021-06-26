@@ -13,3 +13,147 @@
     height: 100vh;
     background: rgba(0,0,0, 0.3);
 }
+
+.container {
+        width: 100%;
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 0 15px;
+}
+
+.intro {
+    text-align: center;
+    font-size: 22px;
+    font-weight: 600;
+    color: white;
+    padding: 15px;
+}
+
+.containerInner {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.methodInner {
+    width: 50%;
+    color: black;
+    margin-top: 20px;
+}
+
+.methodTitle {
+    font-size: 24px;
+    color: #39394b;
+    font-weight: 700;
+}
+
+.methodList {
+    margin-bottom: 8px;
+    padding:0;
+    list-style: none;
+    counter-reset: li;
+}
+
+.methodPoint {
+    position: relative;
+    border: 1px solid #19c880;
+    background: rgba(255,255,255, 0.8);
+    padding:15px 25px;
+    margin:12px 0 12px 40px;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    border-radius: 35px;
+    font-size: 16px;
+}
+
+.methodPoint:hover {
+    background: #FFF;
+}
+
+.methodPoint::before {
+    line-height: 32px;
+    position: absolute;
+    top: 4px;
+    left:-40px;
+    width:40px;
+    text-align:center;
+    font-size: 16px;
+    font-weight: bold;
+    color: #FFF;
+    background: #19c880;
+    counter-increment: li;
+    content: counter(li);
+    -webkit-transition-duration: 0.2s;
+    transition-duration: 0.2s;
+
+}
+
+.methodPoint:hover:before {
+	width:46px;
+}
+.methodPoint:after {
+	position: absolute;
+	left: 0;
+	top: 4px;
+	content: "";
+	height: 0;
+	width: 0;
+	border: 16px solid transparent;
+	border-left-color: #19c880;
+	-webkit-transition-duration: 0.2s;
+	transition-duration: 0.2s
+}
+.methodPoint:hover:after {
+	margin-left: 6px;
+}
+
+
+.colorSpan {
+    font-weight: 800;
+}
+
+.lessonsInner {
+    width: 50%;
+    color:black;
+    padding-top: 60px;
+    padding-left: 40px;
+}
+
+.lessonsTitle {
+    font-size: 24px;
+    color: #39394b;
+    font-weight: 700;
+}
+
+.lessonsList {
+    font-size: 22px;
+    color: black;
+    font-weight: 700;
+
+}
+
+.lessonsPoint {
+    padding-bottom: 15px;
+
+}
+
+.btnGreen {
+    margin-top: 40px;
+    margin-left: 20px;
+    display: inline-block;
+    text-decoration: none;
+    text-transform: uppercase;
+    border: 2px solid #19c880;
+    padding: 15px 50px;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 700;
+    vertical-align: top;
+    text-align: center;
+    cursor: pointer;
+    transition: background 0.3s  linear;
+}
+
+.btnGreen:hover {
+    background-color: #19c880 ;
+}
