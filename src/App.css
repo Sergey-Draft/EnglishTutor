@@ -12,10 +12,10 @@
   -webkit-font-smoothing: antialiased;
 
 
-  -webkit-animation: fade-in 2s linear; /* Safari 4+ */
-  -moz-animation: fade-in 2s linear; /* Fx 5+ */
-  -o-animation: fade-in 2s linear; /* Opera 12+ */
-  animation: fade-in 2s linear; /* IE 10+, Fx 29+ */
+  -webkit-animation: fade-in 1s linear; /* Safari 4+ */
+  -moz-animation: fade-in 1s linear; /* Fx 5+ */
+  -o-animation: fade-in 1s linear; /* Opera 12+ */
+  animation: fade-in 1s linear; /* IE 10+, Fx 29+ */
 }
 *,
 *:before,

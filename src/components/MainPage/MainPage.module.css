@@ -1,9 +1,10 @@
-.overlay {
-    background: rgba(0,0,0,0.5);
-    height: 100vh;
-    margin: 0;
-    padding: 0;
-}
+@-webkit-keyframes fade-in {   0% { opacity: 0.1; }   100% { opacity: 1; }   }
+@-moz-keyframes    fade-in {   0% { opacity: 0.1; }   100% { opacity: 1; }   }
+@-o-keyframes      fade-in {   0% { opacity: 0.1; }   100% { opacity: 1; }   }
+@keyframes         fade-in {   0% { opacity: 0.1; }   100% { opacity: 1; }   }
+
+
+
 
 .intro{
 
@@ -12,8 +13,20 @@
     justify-content: left;
     height: 100vh;
     padding-top: 100px;
-    background: #313550 url(/src/img/hero-bg.jpg) center no-repeat;
+    background: white url(/src/img/hero-bg.jpg) center no-repeat;
     background-size: cover;
+    -webkit-animation: fade-in 2s linear; /* Safari 4+ */
+    -moz-animation: fade-in 2s linear; /* Fx 5+ */
+    -o-animation: fade-in 2s linear; /* Opera 12+ */
+    animation: fade-in 2s linear; /* IE 10+, Fx 29+ */
+}
+
+.overlay {
+    background: rgba(0,0,0,0.5);
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+
 }
 
 
@@ -31,7 +44,7 @@
 }
 
 .introTitle {
-    margin-top: 200px;
+    margin-top: 150px;
     font-size: 24px;
     line-height: 1.1;
     font-weight: 700;

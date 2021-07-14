@@ -1,17 +1,23 @@
+@-webkit-keyframes fade-in {   0% { opacity: 0.1; }   100% { opacity: 1; }   }
+@-moz-keyframes    fade-in {   0% { opacity: 0.1; }   100% { opacity: 1; }   }
+@-o-keyframes      fade-in {   0% { opacity: 0.1; }   100% { opacity: 1; }   }
+@keyframes         fade-in {   0% { opacity: 0.1; }   100% { opacity: 1; }   }
 
 .backimg {
-    display: flex;
-    flex-direction: column;
-    justify-content: left;
     height: 100vh;
     padding-top: 100px;
-    background: #313550 url(/src/img/pexels.jpeg) center no-repeat;
+    background: white url(/src/img/pexels.jpeg) center no-repeat;
     background-size: cover;
+
+    -webkit-animation: fade-in 2s linear; /* Safari 4+ */
+    -moz-animation: fade-in 2s linear; /* Fx 5+ */
+    -o-animation: fade-in 2s linear; /* Opera 12+ */
+    animation: fade-in 2s linear; /* IE 10+, Fx 29+ */
 }
 
 .wrapper {
-    height: 100vh;
-    background: rgba(0,0,0, 0.3);
+    height: 100%;
+    background: rgba(0,0,0, 0.5);
 }
 
 .container {
@@ -26,7 +32,7 @@
     font-size: 22px;
     font-weight: 600;
     color: white;
-    padding: 15px;
+    padding: 10px;
 }
 
 .containerInner {
@@ -43,7 +49,7 @@
 
 .methodTitle {
     font-size: 24px;
-    color: #39394b;
+    color: #19c880;
     font-weight: 700;
 }
 
@@ -121,13 +127,13 @@
 
 .lessonsTitle {
     font-size: 24px;
-    color: #39394b;
+    color: #19c880;
     font-weight: 700;
 }
 
 .lessonsList {
     font-size: 22px;
-    color: black;
+    color: white;
     font-weight: 700;
 
 }
@@ -156,4 +162,13 @@
 
 .btnGreen:hover {
     background-color: #19c880 ;
+}
+
+
+@media(max-width: 991px) {
+    .backimg {
+        height: 100%;
+        padding-top: 100px;
+        background: white url(/src/img/pexels.jpeg) center no-repeat fixed;
+        background-size: cover; }
 }

@@ -1,4 +1,4 @@
-import React, { createRef } from 'react';
+import React from 'react';
 import s from './Header.module.css';
 import { NavLink } from 'react-router-dom';
 import { useState } from "react";
@@ -35,8 +35,8 @@ const Header = () => {
                     <div className={s.phones}>
                         <img className={s.phoneLogo} src='https://i.ya-webdesign.com/images/telephone-png-icons-free-1.png' alt='logo'></img>
                         <div>
-                            <div>+375 29 705 54 55</div>
-                            <div>+375 33 555-55-55</div>
+                            <div>+375 29 766 01 49</div>
+                            <div>+375 29 681 16 22</div>
                         </div>
 
                     </div>
@@ -44,7 +44,6 @@ const Header = () => {
                         <NavLink to='/main' activeClassName={s.active} className={s.link} onClick={handleCollapse}>Главная</NavLink>
                         <NavLink to='/introduce' activeClassName={s.active} className={s.link} onClick={handleCollapse}>Обо мне</NavLink>
                         <NavLink to='/mymethod' activeClassName={s.active} className={s.link} onClick={handleCollapse}>Мой метод</NavLink>
-                        <NavLink to='/cost' activeClassName={s.active} className={s.link} onClick={handleCollapse}>Стоимость</NavLink>
                         <NavLink to='/contacts' activeClassName={s.active} className={s.link} onClick={handleCollapse}>Контакты</NavLink>
                     </nav>
 

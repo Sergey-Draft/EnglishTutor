@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Russo+One&family=Sigmar+One&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Bungee&display=swap');
-@keyframes         fade-in {   0% { opacity: 0.1; }   100% { opacity: 1; }   }
 
 .header{
     position: absolute;
@@ -36,7 +35,7 @@
 }
 
 .headerlogo:hover {
-    background: #fff;
+/*     background: #fff; */
     box-shadow: 0 0 30px 3px #fff;
     color: #39394b;
 }
@@ -45,8 +44,9 @@
     display: flex;
     flex-direction: row;
     font-size: 20px;
-    font-weight: 800;
+    font-weight: 600;
     font-style: italic;
+    font-family: Arial, Helvetica, sans-serif;
 }
 .phoneLogo {
     max-width: 40px;

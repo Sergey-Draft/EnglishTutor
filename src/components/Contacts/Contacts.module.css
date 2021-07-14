@@ -1,13 +1,22 @@
+@-webkit-keyframes fade-in {   0% { opacity: 0.1; }   100% { opacity: 1; }   }
+@-moz-keyframes    fade-in {   0% { opacity: 0.1; }   100% { opacity: 1; }   }
+@-o-keyframes      fade-in {   0% { opacity: 0.1; }   100% { opacity: 1; }   }
+@keyframes         fade-in {   0% { opacity: 0.1; }   100% { opacity: 1; }   }
 
 .wrapper {
     height: 100vh;
     background: rgba(0,0,0, 0.3);
+
+    -webkit-animation: fade-in 1s linear; /* Safari 4+ */
+    -moz-animation: fade-in 1s linear; /* Fx 5+ */
+    -o-animation: fade-in 1s linear; /* Opera 12+ */
+    animation: fade-in 1s linear; /* IE 10+, Fx 29+ */
 }
 
 .intro {
     text-align: center;
     font-size: 30px;
-    color: #2c2c2c;
+    color: white;
     margin-top: 20px;
     padding: 0 15px;
 
@@ -20,7 +29,7 @@
     justify-content: left;
     height: 100vh;
     padding-top: 100px;
-    background: #313550 url(/src/img/contactme.jpg) center no-repeat;
+    background: white url(/src/img/contactme.jpg) center no-repeat;
     background-size: cover;
 }
 
@@ -49,7 +58,7 @@
 
 .title {
     font-size: 24px;
-    color: black;
+    color: #19c880;
     font-weight: 700;
 }
 .subTitle {
@@ -66,7 +75,6 @@
     width: 100%;
     top: 0;
     text-align: center;
-    /* transform: translateY(-50%); */
     position: absolute;
   }
   
