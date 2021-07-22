@@ -21,7 +21,7 @@ const MainPage = () => {
                             Удобное обучение английскому языку для взрослых.
                             Обучение проводит опытный преподаватель со стажем более 10 лет.
                         </div>
-                        <NavLink to='/myMethod' className={s.btnGreen}>Подробнее</NavLink>
+                        <NavLink to='/myMethod' className={s.btnGreen} onClick={() => {window.scrollTo(0, 0)}} >Подробнее</NavLink>
                     </div>
                 </div>
             </div>

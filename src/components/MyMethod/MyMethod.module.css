@@ -143,7 +143,13 @@
 
 }
 
+.buttons {
+    display: inline-block;
+
+}
+
 .btnGreen {
+    width: 200px;
     margin-top: 40px;
     margin-left: 20px;
     display: inline-block;
@@ -165,10 +171,50 @@
 }
 
 
+
+
 @media(max-width: 991px) {
     .backimg {
         height: 100%;
         padding-top: 100px;
         background: white url(/src/img/pexels.jpeg) center no-repeat fixed;
-        background-size: cover; }
+        background-size: cover;
+     }
 }
+
+@media(max-width: 1024px){}
+
+@media(max-width: 991px) {}
+
+@media(max-width: 768px) {
+    .intro {
+        font-size: 18px;
+    }
+    .methodTitle {
+        font-size: 20px;
+    }
+    .lessonsTitle{
+        font-size: 20px;
+    }
+    .lessonsList {
+        font-size: 20px;
+    }
+}
+
+@media(max-width: 660px) {
+    .containerInner {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    .methodInner{
+        width: auto;
+    }
+    .lessonsInner {
+        width: auto;
+    }
+}
+
+@media(max-width: 420px) {}
+
+@media(max-width: 340px) {}

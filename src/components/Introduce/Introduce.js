@@ -6,7 +6,7 @@ import { NavLink } from 'react-router-dom';
 const Introduce = () => {
     return (
         <div className={s.backimg}>
-            <div className={s.overlay}>
+            <div className={s.wrapper}>
                 <div className={s.container}>
                     <div className={s.intro}>Давайте знакомиться</div>
                     <div className={s.introduceInner}>
@@ -24,7 +24,7 @@ const Introduce = () => {
 <p>Работа преподавателя - это мое хобби и призвание, без ложной скромности :-)
 Мне нравится контакт с аудиторией. Я люблю достигать целей вместе с моими учениками. 
 Свободное владение языком даст вам уверенность и откроет новые возможности. Будет замечательно, если я смогу вам в этом помочь!</p>
-<NavLink to='/myMethod' className={s.btnGreen}>Мой метод</NavLink>
+<NavLink to='/contacts' className={s.btnGreen} onClick={() => {window.scrollTo(0, 0)}} >Мои контакты</NavLink>
 </div>
                     </div>
 

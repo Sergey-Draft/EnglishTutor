@@ -192,3 +192,41 @@
     }
 
 }
+
+@media(max-width: 768px) {
+    .headerlogo {
+        font-size: 18px;
+    }
+    .phones {
+
+        font-size: 16px;
+
+    }
+    .phoneLogo {
+        max-width: 25px;
+        max-height: 25px;
+        margin-right: 20px;
+    }
+}
+
+@media(max-width: 440px) {
+    .headerlogo {
+        font-size: 14px;
+    }
+    .phones {
+
+        font-size: 16px;
+
+    }
+    .phoneLogo {
+        max-width: 25px;
+        max-height: 25px;
+        margin-right: 20px;
+    }
+}
+
+@media(max-width: 380px) {
+    .headerlogo {
+        display: none;
+    }
+}

@@ -6,6 +6,17 @@
 
 
 
+/* html{
+    min-height: 100vh;
+}
+body {
+    min-height: 100vh!important;
+}
+
+#root{
+    min-height: 100vh;
+} */
+
 .intro{
 
     display: flex;
@@ -13,8 +24,9 @@
     justify-content: left;
     height: 100vh;
     padding-top: 100px;
-    background: white url(/src/img/hero-bg.jpg) center no-repeat;
+    background: white url(/src/img/hero-bg.jpg) no-repeat center fixed;
     background-size: cover;
+
     -webkit-animation: fade-in 2s linear; /* Safari 4+ */
     -moz-animation: fade-in 2s linear; /* Fx 5+ */
     -o-animation: fade-in 2s linear; /* Opera 12+ */
@@ -23,7 +35,7 @@
 
 .overlay {
     background: rgba(0,0,0,0.5);
-    height: 100vh;
+    height: 100%;
     margin: 0;
     padding: 0;
 
@@ -35,6 +47,7 @@
     max-width: 1200px;
     margin: 0 auto;
     padding: 0 15px;
+/*     height: 100vh; */
 }
 
 .contentInner {
@@ -88,6 +101,65 @@
 .btnGreen:hover {
     background-color: #19c880 ;
 }
+
+
+@media(max-width: 991px){
+    .btnGreen {
+        margin-top: 40px;
+    }
+
+/*     .intro{
+            height: 100%;
+    }
+    .overlay {
+        height: 100%;
+    } */
+}
+
+
+@media(max-width: 767px){
+
+    .intro{
+            height: 100vmax;
+    }
+    .overlay {
+        height: 100vmax;
+    } 
+
+    .introTitle {
+        font-size: 16px;
+        margin-top: 80px;
+    }
+
+    .introSubtitle {
+        font-size: 24px;
+    }
+
+    .littleText {
+        font-size: 16px;
+    }
+
+
+}
+
+
+@media(max-width: 440px) {
+    .introTitle {
+        font-size: 14px;
+        margin-top: 80px;
+    }
+
+    .introSubtitle {
+        font-size: 20px;
+    }
+
+    .littleText {
+        font-size: 14px;
+    }
+
+}
+
+@media(max-width: 340px) {}
 
 
 

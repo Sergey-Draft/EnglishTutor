@@ -11,6 +11,7 @@ const Contacts = () => {
                 <div className={s.intro}>Как со мной связаться?</div>
 
                 <div className={s.container}>
+                    <div className={s.containerInner}>
                     <div className={s.item}>
                         <div className={s.social}>
                             <a href="https://join.skype.com/invite/D27ddWSO7ic8" className={s.link + ' ' + s.facebook} target="_parent"><span class="fa fa-skype"></span></a>
@@ -19,8 +20,6 @@ const Contacts = () => {
                             <div className={s.title}>Мой Skype</div>
                             <div className={s.subTitle}>Evgenya Kratovich</div>
                         </div>
-                    </div>
-                    <div className={s.item}>
                     </div>
                     <div className={s.item}>
                         <div className={s.social}>
@@ -35,8 +34,6 @@ const Contacts = () => {
                         </div>
                     </div>
                     <div className={s.item}>
-                    </div>
-                    <div className={s.item}>
                         <div className={s.social}>
                             <a href="mailto:o-jeni@mail.ru" className={s.link + ' ' + s.google} target="_parent"><span class="fa fa-envelope"></span></a>
                         </div>
@@ -47,7 +44,6 @@ const Contacts = () => {
                                 </div>
                         </div>
                     </div>
-                    <div className={s.item}>
                     </div>
                 </div>
             </div>

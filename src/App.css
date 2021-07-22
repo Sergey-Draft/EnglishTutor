@@ -5,6 +5,7 @@
 
 .App{
   margin: 0px;
+  min-height: 100vh;
 
   font-family: 'Raleway', sans-serif;
   font-size: 14px;

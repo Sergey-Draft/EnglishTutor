@@ -50,7 +50,11 @@ const MyMethod = () => {
                                     Студенты и взрослые
                                 </li>
                             </ul>
-                            <NavLink to='/contacts' className={s.btnGreen}>мои контакты</NavLink>
+                            <div className={s.buttons}>
+                            <NavLink to='/contacts' className={s.btnGreen} onClick={() => {window.scrollTo(0, 0)}}>контакты</NavLink>
+                            <NavLink to='/introduce' className={s.btnGreen} onClick={() => {window.scrollTo(0, 0)}} >обо мне</NavLink>
+                            </div>
+
 
                         </div>
                     </div>
