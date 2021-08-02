@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/static/css/main.2e2e19ac.chunk.css",
+    "main.js": "/static/js/main.8aa82feb.chunk.js",
+    "main.js.map": "/static/js/main.8aa82feb.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.bda05c4f.js",
+    "runtime-main.js.map": "/static/js/runtime-main.bda05c4f.js.map",
+    "static/js/2.de4f3db3.chunk.js": "/static/js/2.de4f3db3.chunk.js",
+    "static/js/2.de4f3db3.chunk.js.map": "/static/js/2.de4f3db3.chunk.js.map",
+    "static/js/3.2a55116c.chunk.js": "/static/js/3.2a55116c.chunk.js",
+    "static/js/3.2a55116c.chunk.js.map": "/static/js/3.2a55116c.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.2e2e19ac.chunk.css.map": "/static/css/main.2e2e19ac.chunk.css.map",
+    "static/js/2.de4f3db3.chunk.js.LICENSE.txt": "/static/js/2.de4f3db3.chunk.js.LICENSE.txt",
+    "static/media/Contacts.module.css": "/static/media/contactme.20102891.jpg",
+    "static/media/Introduce.module.css": "/static/media/england22.7d91cb9d.jpg",
+    "static/media/MainPage.module.css": "/static/media/hero-bg.a5cda39a.jpg",
+    "static/media/logo.6ce24c58.svg": "/static/media/logo.6ce24c58.svg",
+    "static/media/MyMethod.module.css": "/static/media/pexels.135a381d.jpeg",
+    "static/media/photoJenya.762c0592.jpg": "/static/media/photoJenya.762c0592.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.bda05c4f.js",
+    "static/js/2.de4f3db3.chunk.js",
+    "static/css/main.2e2e19ac.chunk.css",
+    "static/js/main.8aa82feb.chunk.js"
+  ]
+}
