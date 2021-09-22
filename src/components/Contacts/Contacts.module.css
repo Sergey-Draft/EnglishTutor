@@ -36,9 +36,6 @@
 
 }
 
-
-
-
 .container{
     width: 100%;
     max-width: 1200px;
@@ -136,19 +133,6 @@
   }
 
 
-  
-
-  @media(max-width: 1024px){}
-
-@media(max-width: 991px) {
- .backimg {
-   height: 100%;
- }
-/*  .wrapper {
-   height: 100%;
- } */
-}
-
 @media(max-width: 768px) {
   .social .link {
     width: 110px;
@@ -173,7 +157,3 @@
   }
 
 }
-
-@media(max-width: 420px) {}
-
-@media(max-width: 340px) {}

@@ -4,25 +4,11 @@
 @keyframes         fade-in {   0% { opacity: 0.1; }   100% { opacity: 1; }   }
 
 
-
-
-/* html{
-    min-height: 100vh;
-}
-body {
-    min-height: 100vh!important;
-}
-
-#root{
-    min-height: 100vh;
-} */
-
 .intro{
-
     display: flex;
     flex-direction: column;
     justify-content: left;
-    height: 100vh;
+    min-height: 100vh;
     padding-top: 100px;
     background: white url(/src/img/hero-bg.jpg) no-repeat center fixed;
     background-size: cover;
@@ -35,19 +21,16 @@ body {
 
 .overlay {
     background: rgba(0,0,0,0.5);
-    height: 100%;
+    min-height: 100vh;
     margin: 0;
     padding: 0;
-
 }
-
 
 .container{
     width: 100%;
     max-width: 1200px;
     margin: 0 auto;
     padding: 0 15px;
-/*     height: 100vh; */
 }
 
 .contentInner {
@@ -96,6 +79,7 @@ body {
     text-align: center;
     cursor: pointer;
     transition: background 0.3s  linear;
+    margin-bottom: 30px;
 }
 
 .btnGreen:hover {
@@ -103,63 +87,38 @@ body {
 }
 
 
-@media(max-width: 991px){
-    .btnGreen {
-        margin-top: 40px;
-    }
-
-/*     .intro{
-            height: 100%;
-    }
-    .overlay {
-        height: 100%;
-    } */
-}
-
 
 @media(max-width: 767px){
 
-    .intro{
-            height: 100vmax;
-    }
-    .overlay {
-        height: 100vmax;
-    } 
 
     .introTitle {
-        font-size: 16px;
-        margin-top: 80px;
+        font-size: 22px;
     }
 
     .introSubtitle {
-        font-size: 24px;
+        font-size: 38px;
     }
 
     .littleText {
         font-size: 16px;
     }
-
-
 }
 
 
 @media(max-width: 440px) {
     .introTitle {
-        font-size: 14px;
-        margin-top: 80px;
+        font-size: 18px;
     }
 
     .introSubtitle {
-        font-size: 20px;
+        font-size: 32px;
     }
 
     .littleText {
         font-size: 14px;
     }
-
 }
 
-@media(max-width: 340px) {}
 
 
 

@@ -4,7 +4,7 @@
 @keyframes         fade-in {   0% { opacity: 0.1; }   100% { opacity: 1; }   }
 
 .backimg {
-    height: 100vh;
+    min-height: 100vh;
     padding-top: 100px;
     background: white url(/src/img/pexels.jpeg) center no-repeat;
     background-size: cover;
@@ -16,7 +16,7 @@
 }
 
 .wrapper {
-    height: 100%;
+    min-height: 100vh;
     background: rgba(0,0,0, 0.5);
 }
 
@@ -91,7 +91,6 @@
     content: counter(li);
     -webkit-transition-duration: 0.2s;
     transition-duration: 0.2s;
-
 }
 
 .methodPoint:hover:before {
@@ -112,7 +111,6 @@
 .methodPoint:hover:after {
 	margin-left: 6px;
 }
-
 
 .colorSpan {
     font-weight: 800;
@@ -171,17 +169,6 @@
 }
 
 
-
-
-@media(max-width: 991px) {
-    .backimg {
-        height: 100%;
-        padding-top: 100px;
-        background: white url(/src/img/pexels.jpeg) center no-repeat fixed;
-        background-size: cover;
-     }
-}
-
 @media(max-width: 1024px){}
 
 @media(max-width: 991px) {}
@@ -212,6 +199,9 @@
     }
     .lessonsInner {
         width: auto;
+    }
+    .btnGreen{
+        margin-bottom: 30px;
     }
 }
 
