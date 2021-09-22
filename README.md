@@ -1,5 +1,5 @@
 # React application like a online business card for a teacher
-### :england:  https://sergey-draft.github.io/main
+### :england:  https://sergey-draft.github.io/EnglishTutor
 ---
 <div>
 <img src='https://user-images.githubusercontent.com/76526621/134383104-6e8a6347-b20a-4021-839b-f4dc55820f85.png' height = 150 width=200 hspace=15>
