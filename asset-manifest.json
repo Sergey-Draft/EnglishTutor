@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/EnglishTutor/static/css/main.7e3db3d4.chunk.css",
-    "main.js": "/EnglishTutor/static/js/main.204c55e2.chunk.js",
-    "main.js.map": "/EnglishTutor/static/js/main.204c55e2.chunk.js.map",
-    "runtime-main.js": "/EnglishTutor/static/js/runtime-main.b0d2b5ad.js",
-    "runtime-main.js.map": "/EnglishTutor/static/js/runtime-main.b0d2b5ad.js.map",
+    "main.css": "/EnglishTutor/static/css/main.9c57ec96.chunk.css",
+    "main.js": "/EnglishTutor/static/js/main.81e92a33.chunk.js",
+    "main.js.map": "/EnglishTutor/static/js/main.81e92a33.chunk.js.map",
+    "runtime-main.js": "/EnglishTutor/static/js/runtime-main.089aa2a9.js",
+    "runtime-main.js.map": "/EnglishTutor/static/js/runtime-main.089aa2a9.js.map",
     "static/css/2.0b6f13fa.chunk.css": "/EnglishTutor/static/css/2.0b6f13fa.chunk.css",
-    "static/js/2.94178698.chunk.js": "/EnglishTutor/static/js/2.94178698.chunk.js",
-    "static/js/2.94178698.chunk.js.map": "/EnglishTutor/static/js/2.94178698.chunk.js.map",
-    "static/js/3.3e6e598f.chunk.js": "/EnglishTutor/static/js/3.3e6e598f.chunk.js",
-    "static/js/3.3e6e598f.chunk.js.map": "/EnglishTutor/static/js/3.3e6e598f.chunk.js.map",
+    "static/js/2.13e14a25.chunk.js": "/EnglishTutor/static/js/2.13e14a25.chunk.js",
+    "static/js/2.13e14a25.chunk.js.map": "/EnglishTutor/static/js/2.13e14a25.chunk.js.map",
+    "static/js/3.432904f7.chunk.js": "/EnglishTutor/static/js/3.432904f7.chunk.js",
+    "static/js/3.432904f7.chunk.js.map": "/EnglishTutor/static/js/3.432904f7.chunk.js.map",
     "index.html": "/EnglishTutor/index.html",
     "static/css/2.0b6f13fa.chunk.css.map": "/EnglishTutor/static/css/2.0b6f13fa.chunk.css.map",
-    "static/css/main.7e3db3d4.chunk.css.map": "/EnglishTutor/static/css/main.7e3db3d4.chunk.css.map",
-    "static/js/2.94178698.chunk.js.LICENSE.txt": "/EnglishTutor/static/js/2.94178698.chunk.js.LICENSE.txt",
+    "static/css/main.9c57ec96.chunk.css.map": "/EnglishTutor/static/css/main.9c57ec96.chunk.css.map",
+    "static/js/2.13e14a25.chunk.js.LICENSE.txt": "/EnglishTutor/static/js/2.13e14a25.chunk.js.LICENSE.txt",
     "static/media/Contacts.module.css": "/EnglishTutor/static/media/contactme.20102891.jpg",
-    "static/media/Introduce.module.css": "/EnglishTutor/static/media/england22.7d91cb9d.jpg",
+    "static/media/Introduce.module.css": "/EnglishTutor/static/media/england2.1f82d896.jpg",
     "static/media/font-awesome.min.css": "/EnglishTutor/static/media/fontawesome-webfont.f691f37e.woff",
     "static/media/MainPage.module.css": "/EnglishTutor/static/media/hero-bg.a5cda39a.jpg",
     "static/media/logo.6ce24c58.svg": "/EnglishTutor/static/media/logo.6ce24c58.svg",
@@ -23,10 +23,10 @@
     "static/media/photoJenya.762c0592.jpg": "/EnglishTutor/static/media/photoJenya.762c0592.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.b0d2b5ad.js",
+    "static/js/runtime-main.089aa2a9.js",
     "static/css/2.0b6f13fa.chunk.css",
-    "static/js/2.94178698.chunk.js",
-    "static/css/main.7e3db3d4.chunk.css",
-    "static/js/main.204c55e2.chunk.js"
+    "static/js/2.13e14a25.chunk.js",
+    "static/css/main.9c57ec96.chunk.css",
+    "static/js/main.81e92a33.chunk.js"
   ]
 }
