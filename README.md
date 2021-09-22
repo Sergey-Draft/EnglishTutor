@@ -1,3 +1,20 @@
+# React application like a online business card for a teacher
+### :england:  https://sergey-draft.github.io/main
+---
+<div>
+<img src='https://user-images.githubusercontent.com/76526621/134383104-6e8a6347-b20a-4021-839b-f4dc55820f85.png' height = 150 width=200 hspace=15>
+<img src='https://user-images.githubusercontent.com/76526621/134383126-ea058c32-a5ba-43bd-99da-e7967e2b5a3f.png' height = 150 width=200 hspace=15>
+<img src='https://user-images.githubusercontent.com/76526621/134383143-27216cdd-c4a1-4366-bc2c-75cf6e30e899.png' height = 150 width=200 hspace=15>
+<div/>
+  
+ ---
+
+
+
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
